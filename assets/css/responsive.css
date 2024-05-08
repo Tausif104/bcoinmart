@@ -1,0 +1,163 @@
+@media (max-width:2000px) {
+  footer:after {
+    width: 40%;
+  }
+}
+@media (max-width:1199px) {
+  .banner-text h1 {
+    font-size: 40px;
+  }
+
+  .crypto-currency {
+      grid-template-columns: repeat(2, 1fr);
+  }
+
+
+  .presale-total {
+      flex-direction: column;
+  }
+
+  .presale-right {
+      text-align: left;
+      margin-top: 30px;
+  }
+
+
+  .banner-address {
+      margin-top: 20px;
+  }
+
+
+  .section-padding {
+    padding: 80px 0;
+  }
+  .process-content {
+      margin-left: 0;
+  }
+
+  .distribution-right {
+      margin-left: 0;
+      margin-top: 30px;
+  }
+
+  footer:after {
+    display: none;
+  }
+  section.banner-section {
+    padding-top: 120px;
+  }
+  .footer-box P:last-child {
+    margin-bottom: 30px;
+  }
+  header a.primary-btn {
+    font-size: 11px;
+      padding: 15px 27px;
+  }
+}
+
+@media (max-width:991px) {
+  .banner-presale {
+    margin-top: 35px;
+  }
+  section.features-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+    .footer-bottom-info a {
+      font-size: 30px;
+  }
+  .mobile-nav .navbar {
+    background-color: #1C1209;
+}
+
+.mobile-nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9;
+}
+
+.navbar-nav a {
+    color: #fff!important;
+}
+
+span.navbar-toggler-icon {
+    background-color: #FCAA02;
+}
+
+button.navbar-toggler {
+    background-color: #FCAA02;
+}
+
+}
+
+@media (max-width:767px) {
+  section.banner-section {
+    padding-bottom: 0;
+  }
+  .process-box img {
+    max-width: 80px;
+  }
+
+  .process-box {
+    padding: 20px;
+  }
+
+  .process-box h4 {
+    font-size: 13px;
+    margin-top: 0;
+  }
+
+  .process-content h2 {
+    font-size: 30px;
+  }
+
+  .section-title h2 {
+    font-size: 26px;
+  }
+
+  .section-title p {
+    font-size: 16px;
+  }
+
+  .roadmap-timeline.text-center {
+    display: none;
+  }
+
+  .roadmap-item {
+      margin-top: 0!important;
+      text-align: center!important;
+      margin-bottom: 54px;
+  }
+
+  .roadmap-item h3 {
+      font-size: 19px;
+  }
+
+  .roadmap-item p.date {
+      margin: 15px 0;
+  }
+
+
+  .roadmap-item {
+      border: 1px solid #FCAA02;
+      padding: 40px;
+      border-radius: 15px;
+      margin-bottom: 25px;
+  }
+
+  section.roadmap-section {
+      padding-bottom: 80px;
+  }
+  .banner-address p {
+    word-break: break-all;
+}
+
+.footer-bottom-info a {
+    font-size: 16px;
+}
+a.navbar-brand img {
+  max-width: 165px;
+}
+
+}
