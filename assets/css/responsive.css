@@ -1,43 +1,49 @@
-@media (max-width:2000px) {
+@media (max-width: 2000px) {
   footer:after {
     width: 40%;
   }
 }
-@media (max-width:1199px) {
+@media (max-width: 1440px) {
+  .presell-item .presell-item-inner {
+    padding: 10px;
+  }
+
+  .presell-item-inner > p {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 1199px) {
   .banner-text h1 {
     font-size: 40px;
   }
 
   .crypto-currency {
-      grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
-
   .presale-total {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   .presale-right {
-      text-align: left;
-      margin-top: 30px;
+    text-align: left;
+    margin-top: 30px;
   }
-
 
   .banner-address {
-      margin-top: 20px;
+    margin-top: 20px;
   }
-
 
   .section-padding {
     padding: 80px 0;
   }
   .process-content {
-      margin-left: 0;
+    margin-left: 0;
   }
 
   .distribution-right {
-      margin-left: 0;
-      margin-top: 30px;
+    margin-left: 0;
+    margin-top: 30px;
   }
 
   footer:after {
@@ -51,11 +57,18 @@
   }
   header a.primary-btn {
     font-size: 11px;
-      padding: 15px 27px;
+    padding: 15px 27px;
+  }
+  .presell-item .presell-item-inner {
+    padding: 21px;
+  }
+  .slick-dots:before {
+    left: 80px;
+    width: 80%;
   }
 }
 
-@media (max-width:991px) {
+@media (max-width: 991px) {
   .banner-presale {
     margin-top: 35px;
   }
@@ -63,35 +76,40 @@
     padding-top: 80px;
     padding-bottom: 80px;
   }
-    .footer-bottom-info a {
-      font-size: 30px;
+  .footer-bottom-info a {
+    font-size: 30px;
   }
   .mobile-nav .navbar {
-    background-color: #1C1209;
-}
+    background-color: #1c1209;
+  }
 
-.mobile-nav {
+  .mobile-nav {
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 9;
+  }
+
+  .navbar-nav a {
+    color: #fff !important;
+  }
+
+  span.navbar-toggler-icon {
+    background-color: #fcaa02;
+  }
+
+  button.navbar-toggler {
+    background-color: #fcaa02;
+  }
+  .presell-item .presell-item-inner {
+    padding: 33px;
+  }
+  .slick-dots:before {
+    display: none;
+  }
 }
 
-.navbar-nav a {
-    color: #fff!important;
-}
-
-span.navbar-toggler-icon {
-    background-color: #FCAA02;
-}
-
-button.navbar-toggler {
-    background-color: #FCAA02;
-}
-
-}
-
-@media (max-width:767px) {
+@media (max-width: 767px) {
   section.banner-section {
     padding-bottom: 0;
   }
@@ -125,39 +143,54 @@ button.navbar-toggler {
   }
 
   .roadmap-item {
-      margin-top: 0!important;
-      text-align: center!important;
-      margin-bottom: 54px;
+    margin-top: 0 !important;
+    text-align: center !important;
+    margin-bottom: 54px;
   }
 
   .roadmap-item h3 {
-      font-size: 19px;
+    font-size: 19px;
   }
 
   .roadmap-item p.date {
-      margin: 15px 0;
+    margin: 15px 0;
   }
 
-
   .roadmap-item {
-      border: 1px solid #FCAA02;
-      padding: 40px;
-      border-radius: 15px;
-      margin-bottom: 25px;
+    border: 1px solid #fcaa02;
+    padding: 40px;
+    border-radius: 15px;
+    margin-bottom: 25px;
   }
 
   section.roadmap-section {
-      padding-bottom: 80px;
+    padding-bottom: 80px;
   }
   .banner-address p {
     word-break: break-all;
-}
+  }
 
-.footer-bottom-info a {
+  .footer-bottom-info a {
     font-size: 16px;
-}
-a.navbar-brand img {
-  max-width: 165px;
-}
+  }
+  a.navbar-brand img {
+    max-width: 165px;
+  }
 
+  .banner-presale-top span {
+    font-size: 14px;
+  }
+  .input-group img {
+    right: 15px;
+  }
+  .presell-item {
+    background-image: none;
+  }
+  img.dot-bar {
+    display: none;
+  }
+
+  img.dot {
+    display: none;
+  }
 }
