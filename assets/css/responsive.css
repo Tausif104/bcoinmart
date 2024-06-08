@@ -193,4 +193,7 @@
   img.dot {
     display: none;
   }
+  section.presell-section {
+    padding-top: 80px;
+  }
 }
