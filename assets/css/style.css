@@ -239,12 +239,28 @@ a.outline-btn {
 
 .banner-presale-top .progress {
   margin: 15px 0;
-  height: 24px;
+  height: 35px;
   border-radius: 50px;
 }
-.progress-bar {
+.banner-section .progress-bar {
   background-color: #fcaa02;
   border-radius: 50px;
+  margin: 5px;
+}
+
+.progress-bar {
+  border-radius: 50px;
+}
+
+.progress {
+  overflow: hidden;
+  border-radius: 50px;
+  height: 23px;
+}
+
+.progress span {
+  color: #fff;
+  font-weight: normal;
 }
 
 .banner-presale-bottom {
@@ -347,7 +363,7 @@ a.outline-btn {
 }
 
 .section-padding {
-  padding: 150px 0;
+  padding: 100px 0;
 }
 section.process-section {
   background-color: #0b0909;
@@ -799,5 +815,79 @@ ul.slick-dots {
 }
 
 section.presell-section {
-  padding-top: 150px;
+  padding-top: 100px;
+}
+
+.input-group input:focus {
+  background-color: transparent;
+  border-color: #fcaa02;
+}
+
+.input-group input {
+  transition: 0.3s;
+}
+
+li.slick-active button {
+  background-color: #e9ab2e;
+}
+
+.distribution-right span {
+  color: #fff;
+  font-weight: normal;
+}
+
+.progress.one > div {
+  background-color: #690edf;
+}
+
+.progress.two > div {
+  background-color: #708c51;
+}
+
+.progress.three > div {
+  background-color: #d81588;
+}
+
+.progress.four > div {
+  background-color: #fba45a;
+}
+
+.progress.five > div {
+  background-color: #d14eff;
+}
+
+.progress.one > div {
+  background-color: #690edf;
+}
+
+.mainmenu ul li a:hover {
+  color: #fcaa02;
+}
+
+.mainmenu ul li a {
+  transition: 0.3s;
+}
+
+.process-box {
+  transition: 0.3s;
+}
+
+.process-box:hover {
+  transform: translateY(-10px);
+}
+
+.footer-box ul li a:hover {
+  color: #fcaa02;
+}
+
+.footer-bottom-info a:hover {
+  color: #fcaa02;
+}
+
+.footer-bottom-info a {
+  transition: 0.3s;
+}
+
+section.process-section {
+  padding-bottom: 80px;
 }

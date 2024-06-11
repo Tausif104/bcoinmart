@@ -196,4 +196,13 @@
   section.presell-section {
     padding-top: 80px;
   }
+  .banner-buttons {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .banner-buttons a {
+    font-size: 13px;
+  }
 }
