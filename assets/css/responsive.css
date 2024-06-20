@@ -11,6 +11,12 @@
   .presell-item-inner > p {
     margin-top: 10px;
   }
+  .roadmap-item ul li {
+    font-size: 14px !important;
+  }
+  .roadmap-timeline {
+    margin-top: 75px;
+  }
 }
 @media (max-width: 1199px) {
   .banner-text h1 {
@@ -66,6 +72,9 @@
     left: 80px;
     width: 80%;
   }
+  .roadmap-timeline.text-center {
+    margin-top: 235px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -106,6 +115,9 @@
   }
   .slick-dots:before {
     display: none;
+  }
+  .roadmap-timeline.text-center {
+    margin-top: 235px;
   }
 }
 
@@ -204,5 +216,37 @@
 
   .banner-buttons a {
     font-size: 13px;
+  }
+  .roadmap-item.item-one,
+  .roadmap-item.item-three {
+    margin-right: 0;
+  }
+
+  .roadmap-item.item-two,
+  .roadmap-item.item-four {
+    margin-left: 0;
+  }
+  .roadmap-item.item-two,
+  .roadmap-item.item-four {
+    margin-left: 0;
+  }
+
+  .roadmap-item img {
+    display: none;
+  }
+
+  .roadmap-item ul li:after {
+    top: 5px;
+  }
+  .roadmap-item ul li {
+    text-align: left;
+  }
+  .roadmap-item ul li:after {
+    right: auto;
+    top: 5px;
+    left: 0;
+  }
+  .roadmap-item ul li {
+    padding-left: 25px;
   }
 }
